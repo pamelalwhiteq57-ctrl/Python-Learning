@@ -38,3 +38,8 @@ print()
 l = (1,)
 print(l)
 print(type(l))
+print()
+#解包：
+m = (123, "option", 3.1415)
+xx, yy, zz = m
+print(xx, yy, zz)
